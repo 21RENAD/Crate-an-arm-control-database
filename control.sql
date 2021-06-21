@@ -33,7 +33,8 @@ CREATE TABLE `al motor` (
   `Motor3` int(3) NOT NULL,
   `Motor4` int(3) NOT NULL,
   `Motor5` int(3) NOT NULL,
-  `Motor6` int(3) NOT NULL
+  `Motor6` int(3) NOT NULL,
+  `run` tinyint(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 COMMIT;
 
